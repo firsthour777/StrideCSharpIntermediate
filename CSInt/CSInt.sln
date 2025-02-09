@@ -1,0 +1,11 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSInt.Windows", "CSInt.Windows\CSInt.Windows.csproj", "{659ECE71-AB53-4BA7-8AD0-457943ACB550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSInt.Game", "CSInt.Game\CSInt.Game.csproj", "{823C255F-B512-4EDD-820E-5A2739B3E417}"
+EndProject
+Global
+EndGlobal

@@ -1,0 +1,6 @@
+!Texture
+Id: 2ea079d1-744b-4e64-a8fb-acad2445f248
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/wood_table_tex_Nml.dds
+Type: !NormalMapTextureType {}

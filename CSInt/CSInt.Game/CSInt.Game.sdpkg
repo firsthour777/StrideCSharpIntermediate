@@ -1,0 +1,45 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: CSInt.Game
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: CSInt
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets
+    -   Path: !dir Effects
+ResourceFolders:
+    - !dir ../Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 05b1f0b8-7924-4689-9577-6b1d6295b132:UI/Ebrima
+    - 07d18825-60c7-482e-a90f-87ef7278842d:Scenes/03_Raycasting/Completed-Raycasting
+    - 0a4bbf85-d32c-43ca-957a-151a08d7311d:Scenes/06_SceneLoading/Completed-SceneA
+    - 0ce58873-83ac-49b1-8120-a34c0e00cdad:Materials/Yellow
+    - 16f36983-1c21-4a3e-8c52-8dd6a787133c:Scenes/06_SceneLoading/Start-SceneB
+    - 17c04658-8222-4e58-b748-b095eb64370a:Scenes/11_Navigation/Completed-Navigation
+    - 182e2e48-6bf3-4077-8943-14e26b790e9a:Scenes/09_FirstPersonCamera/Completed-FirstPersonCamera
+    - 330d8387-6b2d-4cfe-905b-8f361eb41fa4:Scenes/02_CollisionTriggers/Start-CollisionTriggers
+    - 33fcc3d3-63e1-4bb7-a4f4-b8c0676eecdb:Scenes/06_SceneLoading/Start-SceneA
+    - 38de0da8-9f2d-496a-96db-6c298b5174a2:Scenes/09_FirstPersonCamera/Start-FirstPersonCamera
+    - 43eed5dd-e41f-40ea-8426-bbfee54ce1e7:Scenes/03_Raycasting/Start-Raycasting
+    - 5a213d2b-8c98-4fd3-8186-90b5d618216b:Scenes/04_ProjectUnproject/Completed-ProjectUnproject
+    - 5c012ef5-2e3d-43f3-9290-2c43bbd370c6:Scenes/07_Animation-basics/Start-Animations
+    - 83eb9372-787a-4e46-9ef3-7bf5ae6724cf:Scenes/04_ProjectUnproject/Start-ProjectUnproject
+    - 9d9cfaef-9c56-4459-ba70-3a5f830d0141:Scenes/11_Navigation/Start-Navigation
+    - a3dd3829-24b4-4a3b-85b6-4d4010bcfcf4:Scenes/10_ThirdPersonCamera/Completed-ThirdPersonCamera
+    - aaeeecd3-79be-42b5-87ec-979a14ea60ad:Scenes/07_Animation-basics/Completed-Animations
+    - acac7039-e2dd-4ffc-bea4-a5bda0b1c90c:Scenes/01_UI-basics/Start-UI-basics
+    - aef2285f-4932-404b-b8f2-dfafa6f37b80:Scenes/05_Async/Start-AsyncScript
+    - c70a744f-9b11-4bff-a1da-79a212bb9e63:Scenes/08_Audio/Completed-Audio
+    - d09cac0b-43f9-4418-b73b-a9f82e503a74:Materials/Red
+    - d50448b1-ee0c-4b22-9378-ac2064fbbc2d:Scenes/01_UI-basics/Completed-UI-basics
+    - d6784209-92fd-4c01-b66a-7f1ac6eab2a0:Scenes/11_Navigation/NavigationMesh-Tiny
+    - dad6384b-a5c3-46c1-b436-243ec4f570e8:Scenes/05_Async/Completed-AsyncScript
+    - e3bd0c30-0341-457e-ac98-f008f67b9d3f:Scenes/02_CollisionTriggers/Completed-CollisionTriggers
+    - e92d4649-a0b5-41c0-8983-123a4d677783:Scenes/10_ThirdPersonCamera/Start-ThirdPersonCamera

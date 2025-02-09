@@ -1,0 +1,9 @@
+!Sound
+Id: 528d918a-526a-43d3-aea4-e83fb71d8596
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Audio/gun-shot-effect.ogg
+SampleRate: 48000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

@@ -1,0 +1,7 @@
+!Texture
+Id: 1cbe65ee-5840-4e96-bbe8-5b316dd056df
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/UI/btn_normal.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

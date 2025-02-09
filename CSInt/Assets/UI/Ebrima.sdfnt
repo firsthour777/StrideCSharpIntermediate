@@ -1,0 +1,13 @@
+!SpriteFont
+Id: 05b1f0b8-7924-4689-9577-6b1d6295b132
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Ebrima
+    Style: Regular
+FontType: !OfflineRasterizedSpriteFontType
+    CharacterSet: null
+    CharacterRegions:
+        a12f8e19e5f1ab7249cc542823ca5c08:
+            Start: ' '
+            End: "\x7F"

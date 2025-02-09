@@ -1,0 +1,7 @@
+!Texture
+Id: 3cb56609-84c3-43d1-92c0-66525a1f7c70
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/UI/btn_hover.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

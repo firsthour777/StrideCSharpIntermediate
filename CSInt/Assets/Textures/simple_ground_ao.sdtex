@@ -1,0 +1,7 @@
+!Texture
+Id: 2315a2d5-3cab-49ad-a2e2-b422ecfe88c6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Stand/simple_ground_ao.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

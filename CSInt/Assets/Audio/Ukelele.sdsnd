@@ -1,0 +1,8 @@
+!Sound
+Id: f50f2965-1ab6-4871-ac2f-c6b4745fe110
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Audio/ukulele.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false
