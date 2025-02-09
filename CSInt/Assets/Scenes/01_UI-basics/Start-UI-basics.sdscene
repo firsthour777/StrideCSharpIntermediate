@@ -8,6 +8,8 @@ Hierarchy:
     RootParts:
         - ref!! 17c6c5ea-ce6b-473e-b221-0b41fca1cb3b
         - ref!! 585bfd9a-98e8-4afb-a989-918b48e42d06
+        - ref!! c96f61e2-bac9-42ce-ae31-1f34a8ab3d83
+        - ref!! 78333f68-5a85-411d-9d85-38483e03d011
     Parts:
         -   Folder: Walls
             Entity:
@@ -1108,6 +1110,19 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 85741fad-fc5a-4fc8-b2d6-f30f2a32c032
                 InstanceId: 70bf6134-6815-4954-94fa-a11e69d9f9e0
+        -   Entity:
+                Id: 78333f68-5a85-411d-9d85-38483e03d011
+                Name: UICode
+                Components:
+                    646203998d84f25efa5cc80b7b0a681d: !TransformComponent
+                        Id: 0f0cc497-b5b2-420b-b764-dec9589e4982
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e689eeae96dc5137c9393872b5b2694: !CSInt_01_UI_Basics.UICodeTut,CSInt.Game
+                        Id: 59139969-9720-4433-a27b-8d3007417fd2
+                        font: 8da1c8e2-ca0a-48e9-827c-7d0e8dccd8ab:UI/OpenSans-font
         -   Folder: null
             Entity:
                 Id: 784fb065-f4a2-409f-b5e9-bebab5258fde
@@ -1610,6 +1625,26 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 1e30b3e7-8014-4f79-af21-9d19d52dde1a
                 InstanceId: 70bf6134-6815-4954-94fa-a11e69d9f9e0
+        -   Entity:
+                Id: c96f61e2-bac9-42ce-ae31-1f34a8ab3d83
+                Name: UIEditor
+                Components:
+                    77b0e234b5e9733179f9c4392b069f34: !TransformComponent
+                        Id: 0c64459b-956d-4f6e-8fd2-9d6544ace01f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4989f1971c0c45c00ce3a786394fd664: !UIComponent
+                        Id: b9b881b8-23fd-4534-9797-fe38d1335f9c
+                        Page: b55f2fed-08ea-475f-aa25-d771a63b09c7:Scenes/01_UI-basics/UIDemoPage
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.28, Y: 0.72, Z: 1.0}
+                    18fcbab80912ff51dc20a470bcdccdf2: !CSInt_01_UI_Basics.UIEditorTut,CSInt.Game
+                        Id: c0c5a736-8a0d-4e4f-818e-e1689b0e0db6
+                        nameTextBlock: null
+                        nameEditText: null
+                        nameButton: null
         -   Folder: null
             Entity:
                 Id: cb4e54dd-0c0c-46a0-9207-e819da10348f
