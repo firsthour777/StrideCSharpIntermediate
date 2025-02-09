@@ -9,6 +9,9 @@ Hierarchy:
         - ref!! 15a1a756-6b7f-41f3-a001-bb4c64dfe9c7
         - ref!! 590a1e9a-8521-47ed-a902-700e35defd36
         - ref!! 5a0a5fc1-5477-4965-899e-943b89c94a37
+        - ref!! 4d088396-6c2d-4c28-829c-e943df2065f7
+        - ref!! 4898cb77-6371-4e35-9796-53f5e353d388
+        - ref!! d3bf2bb7-b06e-405c-9cff-bea2a240eb25
     Parts:
         -   Folder: null
             Entity:
@@ -826,6 +829,19 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: f1ced593-eb7f-4621-a893-58716765e6fd
                 InstanceId: 4a374d72-9b46-4f45-aa83-408cd388bcc0
+        -   Entity:
+                Id: 4898cb77-6371-4e35-9796-53f5e353d388
+                Name: TeleporterExit
+                Components:
+                    b228b3d5e7bb1c1bb4b271aece33b553: !TransformComponent
+                        Id: d6894c72-81b8-4e9c-a9e1-b180150f4206
+                        Position: {X: -0.29743776, Y: 1.5030946, Z: 4.0179834}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ebd93e054e539ae0c97a70d0ab4fe5c9: !CSInt_02_Collision_Triggers.TeleportExitScriptTut,CSInt.Game
+                        Id: ba5be195-200a-4e15-b44a-821a82ad9ef1
+                        Sphere: ref!! 4d088396-6c2d-4c28-829c-e943df2065f7
         -   Folder: Ground
             Entity:
                 Id: 4bfc60a3-6b4f-4ede-9e34-cda08adf1b1b
@@ -861,6 +877,40 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 4f8344dd-64e4-42ff-b0f0-a2123dd168e1
                 InstanceId: 4a374d72-9b46-4f45-aa83-408cd388bcc0
+        -   Entity:
+                Id: 4d088396-6c2d-4c28-829c-e943df2065f7
+                Name: StrideBall
+                Components:
+                    14a75b3371750cec5147dd3b3f0f598e: !TransformComponent
+                        Id: a852effe-7afb-4400-881b-4bfbbdf619be
+                        Position: {X: -0.40387446, Y: 1.4520599, Z: 3.9965403}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e8eb6d905d956acab782f5e5c45fb244: !ModelComponent
+                        Id: c7e2a711-ba3d-49f4-b00a-1205dd405209
+                        Model: 3024503b-ea7d-4963-a2d3-fbe57683cf67:Models/StrideBall
+                        Materials: {}
+                    fd43c20ec99b0a677b51fd87678861e2: !RigidbodyComponent
+                        Id: d18e92c3-6e59-479e-89c5-d536f9d15cfc
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            394bc4480a092a2f6ccbd18a37ac3424: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
         -   Entity:
                 Id: 4e1f886f-6751-4d0b-8c75-9ef27aef2c63
                 Name: table
@@ -1832,6 +1882,40 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 9dfae6f8-8193-4e61-ae0c-b7c49009e05b
                 InstanceId: 4a374d72-9b46-4f45-aa83-408cd388bcc0
+        -   Entity:
+                Id: d3bf2bb7-b06e-405c-9cff-bea2a240eb25
+                Name: CollisionBoxTrigger
+                Components:
+                    e0bab657addba5d737496c336d87273f: !TransformComponent
+                        Id: 290364d5-a65d-473c-943d-fa6c68466b20
+                        Position: {X: -0.44968054, Y: 0.45829538, Z: 0.36196172}
+                        Rotation: {X: 0.0, Y: -0.7111002, Z: 0.0, W: 0.70309067}
+                        Scale: {X: 2.253, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    632fe4365b684960e3650e319d1e79bd: !ModelComponent
+                        Id: 0666a4df-50ac-4142-9f77-69ee9b3efe5d
+                        Model: 64ad084d-42fb-4012-adfc-a99f39a05618:Models/Box2x1x1
+                        Materials:
+                            80052c765eb1b506b7adf4f014e6431b~0: cc8e9ab7-296f-4337-b738-7d59cac54938:Materials/Transparent
+                    8e7ebdce7eea45c18555746317d411b2: !StaticColliderComponent
+                        Id: 0fec558b-b40f-44f2-809d-cfb9e7c51ea4
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            7c44d478472e30c78ab0fb68f2397a7e: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    1e4e1e435c855f06312280a64d222b3f: !CSInt_02_Collision_Triggers.CollisionTriggerTut,CSInt.Game
+                        Id: 6d36d3d8-6b6c-40c1-9da4-0e79c333a54c
+                        staticColliderComponent: ref!! 0fec558b-b40f-44f2-809d-cfb9e7c51ea4
         -   Folder: Ground
             Entity:
                 Id: d94f1b23-7897-4c88-9094-498162e35c1f
