@@ -205,6 +205,10 @@ Hierarchy:
                         Vertical: true
                         Horizontal: false
                         Forward: false
+                    21241eeefc53552cb4f748b3085ae425: !CSInt_03_Raycasting.RaycastTut,CSInt.Game
+                        Id: 2a04d4fd-1daf-4eea-b936-a58f6dfcb967
+                        CollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        isCollideWithTriggers: true
         -   Folder: RightBoxes
             Entity:
                 Id: 1cc59ad6-2d3d-455c-b599-be5f9b953b7b
@@ -948,6 +952,10 @@ Hierarchy:
                         Vertical: true
                         Horizontal: false
                         Forward: false
+                    cbc542d82f9b88436501b907e32c90ab: !CSInt.Code.RaycastPenTut,CSInt.Game
+                        Id: d03077df-ddaa-4d2a-8447-6547a1dab7e1
+                        CollideWithGroup: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CollideWithTriggers: true
         -   Folder: Ground
             Entity:
                 Id: a234258f-4f9e-4c69-b6c8-68f16e700265
