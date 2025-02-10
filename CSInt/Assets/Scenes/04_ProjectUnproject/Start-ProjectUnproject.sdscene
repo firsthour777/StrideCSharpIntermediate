@@ -1127,6 +1127,15 @@ Hierarchy:
                         Projection: Perspective
                         VerticalFieldOfView: 70.0
                         Slot: 41f9c2cc-ee60-452f-8f6d-44e30148d556
+                    e8c2ba48746c603a711eb82a799efc6d: !CSInt_04_Project_UnProject.ProjectTut,CSInt.Game
+                        Id: 6287f58b-1cb8-46d9-acb9-fbb7cbd446cc
+                        GlobalSphere: ref!! 3f2e5d8f-4aec-4d06-8247-ef9256640f20
+                        LocalSphere: ref!! a5f4f5ee-b3e5-4252-9767-9c10ccca1814
+                        Camera: ref!! 54df7e41-dc0f-4214-9e95-2e197afc5639
+                    9c1ab770c65fff3545056c1eb4105ceb: !CSInt_04_Project_UnProject.UnprojectTut,CSInt.Game
+                        Id: 84f7e0dc-85cb-4c7f-9708-8b9325c87690
+                        GoldenSphere: ref!! 9170cbbe-58b9-4a12-9a87-c057d217cfa7
+                        ViewportCamera: ref!! 54df7e41-dc0f-4214-9e95-2e197afc5639
         -   Entity:
                 Id: 996f47e1-b92d-4363-8e16-d1ec16a63539
                 Name: Directional light
