@@ -12,6 +12,7 @@ Hierarchy:
         - ref!! c48b4d42-e530-4313-aca3-1f4c65b64a84
         - ref!! 58a17272-139b-4ba1-9f7f-59abdaf7b900
         - ref!! 8e073111-13f5-42a5-9290-59c943ee3456
+        - ref!! 9b78ddc9-a2d3-4423-844b-759e49648707
     Parts:
         -   Folder: Walls
             Entity:
@@ -1293,6 +1294,19 @@ Hierarchy:
                 BasePartId: 126c8441-74f2-4b92-8316-0f02f098baaf
                 InstanceId: ab1dac75-b4ad-46de-8f3f-9b4c7e2e9d59
         -   Entity:
+                Id: 9b78ddc9-a2d3-4423-844b-759e49648707
+                Name: ApiData
+                Components:
+                    300bbdbcc00bbb7650649b21131d42de: !TransformComponent
+                        Id: 895981e2-9e29-4da3-bf1a-1990cc1825c9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6145c4d57001d4e240599d5fb738d73d: !CSInt_05_Async.AsyncWebDataTut,CSInt.Game
+                        Id: b9f9e5bc-1408-454a-b755-3c84641ba991
+                        mewoData: {}
+        -   Entity:
                 Id: 9d4c6de1-c976-488b-a877-a1b9b991e6c4
                 Name: Box4x2x1
                 Components:
@@ -1763,6 +1777,9 @@ Hierarchy:
                                 Size: {X: 1.0, Y: 1.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    6a76f784b3d818448694d81025215f5c: !CSInt_05_Async.AsyncCollisionTut,CSInt.Game
+                        Id: aae506ba-dd00-463b-9cc4-b72c1b95f598
+                        staticColliderComponent: ref!! d1c26bdf-66d6-4da0-b488-95ef726e7560
                     d85b2b6e072fba4f9eac30a89cde96ea: ~(Deleted)
         -   Folder: Walls
             Entity:
