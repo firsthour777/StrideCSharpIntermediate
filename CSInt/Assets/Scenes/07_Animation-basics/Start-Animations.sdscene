@@ -1086,6 +1086,16 @@ Hierarchy:
                         Id: 8f142975-5cfb-453f-8ad6-ea0a022a68b4
                         Model: 12a6cc96-3e82-4705-9f12-999c9bccb331:Models/mannequinModel
                         Materials: {}
+                    aa5b8466dec35a751a70d5378c3b5830: !AnimationComponent
+                        Id: dadd2a6e-cb22-4dd1-ba24-a3c5b89b5172
+                        Animations:
+                            451fbefd65898fdc66a6f643b313cf7f~Punching: afb834ec-78f8-4711-9d35-c32a631d9f12:Animations/Punch
+                            4897e7991e496884c30744db770b2c41~Idling: 59ea7f70-4d77-406e-a371-39da2ee174af:Animations/Idle
+                            ea48c9d31c6f2c70f04e3ef1989d41d8~Running: 768594ec-3ac5-46ee-99f7-8b54fd6856e0:Animations/Run
+                    e21b0cc219c66e5921290e4af97fe194: !CSInt_07_Animation.AnimationTut,CSInt.Game
+                        Id: 8223951d-a08e-4a3a-addf-7a3c67996171
+                        AnimationSpeed: 1.0
+                        animationComponent: ref!! dadd2a6e-cb22-4dd1-ba24-a3c5b89b5172
         -   Entity:
                 Id: 993da7e9-67f5-42ef-8536-62b53fc47ed5
                 Name: Ladder0x2x0handle
