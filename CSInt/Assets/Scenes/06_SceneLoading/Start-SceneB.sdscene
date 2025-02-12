@@ -3,7 +3,7 @@ Id: 16f36983-1c21-4a3e-8c52-8dd6a787133c
 SerializedVersion: {Stride: 3.1.0.1}
 Tags: []
 ChildrenIds: []
-Offset: {X: 0.0, Y: -0.0, Z: 0.0}
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
         - ref!! 44451884-d457-4c08-9f94-5a25c4e2619a
@@ -13,6 +13,7 @@ Hierarchy:
         - ref!! c3429ab7-99f4-409f-9ed1-63d282648003
         - ref!! 4b8c26bd-6703-4d3c-9e18-7b31aac0757e
         - ref!! 5dda4d97-3871-457e-8ef5-beada55da9ad
+        - ref!! 6bad749a-4a6d-4555-be2a-74a6b4e79ef8
     Parts:
         -   Entity:
                 Id: 44451884-d457-4c08-9f94-5a25c4e2619a
@@ -34,7 +35,7 @@ Hierarchy:
                 Components:
                     6dc2ce631fa45b24305a29159f06400b: !TransformComponent
                         Id: 5254c9da-de28-4752-9d18-3f892ba83429
-                        Position: {X: 0.20917079, Y: 1.6264505, Z: 0.79653585}
+                        Position: {X: 0.292562, Y: 1.1168965, Z: -0.089105606}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 0.5, Y: 0.5, Z: 0.5}
                         Children: {}
@@ -134,6 +135,19 @@ Hierarchy:
                         Name: null
                         Projection: Perspective
                         Slot: 41f9c2cc-ee60-452f-8f6d-44e30148d556
+        -   Entity:
+                Id: 6bad749a-4a6d-4555-be2a-74a6b4e79ef8
+                Name: ReloadScene
+                Components:
+                    3520c1983c2ceea19ccacc9939fbe571: !TransformComponent
+                        Id: a31d6be5-740e-4589-a5d5-cc394d3bacef
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cc16c70453f597f8604d4e4f1d496b53: !CSInt_06_Scenes.SceneLoadingTut,CSInt.Game
+                        Id: fd0bc85b-62a4-40ea-96e3-2ad144c4c420
+                        sceneToLoad: 33fcc3d3-63e1-4bb7-a4f4-b8c0676eecdb:Scenes/06_SceneLoading/Start-SceneA
         -   Entity:
                 Id: c3429ab7-99f4-409f-9ed1-63d282648003
                 Name: Floor1x0x1

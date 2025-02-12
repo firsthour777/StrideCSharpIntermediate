@@ -8,6 +8,7 @@ Hierarchy:
     RootParts:
         - ref!! 049d33a8-9e24-47f9-9842-c2d147b19f56
         - ref!! 57510f58-6c82-4aea-9871-d830780f97d1
+        - ref!! 4b2dac99-b669-4d87-bcb6-48434212ac67
     Parts:
         -   Folder: Walls
             Entity:
@@ -936,6 +937,23 @@ Hierarchy:
                 BasePartId: b4c9227a-d00e-4c52-afaf-ad2b8881b996
                 InstanceId: 2c9292d2-0afc-474d-9874-002f12427cf1
         -   Entity:
+                Id: 4b2dac99-b669-4d87-bcb6-48434212ac67
+                Name: SceneLoader
+                Components:
+                    6f8c2c47ff8a3483e13df873ca30b21a: !TransformComponent
+                        Id: 5b8eda11-e74f-419b-a3ca-39f0cb99e271
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2cd866672ecbb7ad1b7bac260f1f74a7: !CSInt_06_Scenes.ChildSceneLoadingTut,CSInt.Game
+                        Id: c747c02f-bb41-462d-a9c3-e9eef103221a
+                        ChildSceneToLoad: 68784f21-20e0-4243-bd77-63f6351acf98:Scenes/06_SceneLoading/SceneA-Child
+                        timesLoaded: 0
+                    0e6b8bbf57a05e5bd568c008be4f14ec: !CSInt_06_Scenes.SceneLoadingTut,CSInt.Game
+                        Id: d82a90c0-6924-4ec5-9a0e-b1ace1f985f6
+                        sceneToLoad: 16f36983-1c21-4a3e-8c52-8dd6a787133c:Scenes/06_SceneLoading/Start-SceneB
+        -   Entity:
                 Id: 4d2edd5b-3919-4a6c-a7b1-11eb1dc1394b
                 Name: MaterialModel
                 Components:
@@ -1489,7 +1507,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 1013fee2-25df-4f22-ab92-e06c4c4625da
+                        ShowMenuOnSceneLoad: false
+                    c2cf97d55b592ddac577f462cca2daae*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: d23ed5b7-1eba-4414-bf82-f5b937789228
                         ShowMenuOnSceneLoad: false
             Base:

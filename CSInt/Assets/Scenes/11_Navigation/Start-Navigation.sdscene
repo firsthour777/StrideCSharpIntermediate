@@ -592,7 +592,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 80c289d8-3101-4187-803f-793c1b1d09bb
+                        ShowMenuOnSceneLoad: false
+                    25b4e87af417c023852f0fcf7038276b*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 0c0f5683-d0f9-4c43-a96a-1228f1e68049
                         ShowMenuOnSceneLoad: false
             Base:

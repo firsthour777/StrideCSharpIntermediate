@@ -451,7 +451,7 @@ Hierarchy:
                                 Size: {X: 1.0, Y: 1.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    e3dd6d98a2b885befa8e52ce4ebbe724: !CSInt.Code.CollisionTriggerDemo,CSInt.Game
+                    41392ca115fab826e08f8d11da04d33d: !CSInt.Code.CollisionTriggerDemo,CSInt.Game
                         Id: 307ca574-fed8-498c-b4ff-c2b20dd526f5
                     d85b2b6e072fba4f9eac30a89cde96ea: ~(Deleted)
         -   Folder: Ground
@@ -729,7 +729,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    39b31ed04d334dd4b1b8d9175d834daf: !CSInt.Code.Teleport,CSInt.Game
+                    591bc39de18cdd97c27e775ab0f6cb8b: !CSInt.Code.Teleport,CSInt.Game
                         Id: 92cee80a-056a-4e38-8c32-fadabce5b17f
                         Ball: ref!! 90250255-6561-4f83-a1fc-298e8270876f
         -   Folder: Walls
@@ -2156,7 +2156,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: c97e8ec3-d88a-442f-8cfc-6cba0dbbbd04
+                        ShowMenuOnSceneLoad: false
+                    3a421f07f62b6d49eeefeb36e65ac742*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: a1174431-7cd9-4ef0-90d3-fc34e918f3d4
                         ShowMenuOnSceneLoad: false
             Base:

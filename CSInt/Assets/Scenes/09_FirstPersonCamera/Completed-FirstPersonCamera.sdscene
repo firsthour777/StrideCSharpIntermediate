@@ -522,7 +522,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: b9a137c8-5eb1-4f44-a3ad-904b3525fdce
+                        ShowMenuOnSceneLoad: false
+                    3c50c891aa0a5d8c1a57da05c1dd434f*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: b26b16f6-c997-41cc-ade1-64d9742668e4
                         ShowMenuOnSceneLoad: false
             Base:
@@ -1990,7 +1993,7 @@ Hierarchy:
                             af244ee03b782b39704ab380fc3304ef: ref!! af1319a9-a7d9-430a-b00b-073180552dea
                             856528409e07858d0a897193cebdc712: ref!! 051e448b-3646-451e-89e1-f924105f8ded
                             a48aeaf4d40befd84b6cfeb5d0b0aa3a: ref!! 76bb7c43-6618-4c9e-a4fc-3e7d6945afd1
-                    c2d046ce0e7aa15a23bb051ee9dc469e: !CSInt.Code.FirstPersonCamera,CSInt.Game
+                    15a73cc3a9fa46c70b27c1dac8539c32: !CSInt.Code.FirstPersonCamera,CSInt.Game
                         Id: d99bbc26-bbac-4fb4-864e-94c5789542c1
                         MouseSpeed: 0.6
                         MaxLookUpAngle: -50.0
@@ -2013,7 +2016,7 @@ Hierarchy:
                                 Length: 1.0
                                 LocalOffset: {X: 0.0, Y: 0.75, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    2c91a5b8175f7d73ee25bd01d9f1e18f: !CSInt.Code.CharacterMovement,CSInt.Game
+                    acbb9fa81e075822d756c64fae3c355d: !CSInt.Code.CharacterMovement,CSInt.Game
                         Id: 4a122aeb-ba4b-4a24-ade2-2e4b3e254d21
                         MovementMultiplier: {X: 3.0, Y: 0.0, Z: 4.0}
         -   Folder: Ground

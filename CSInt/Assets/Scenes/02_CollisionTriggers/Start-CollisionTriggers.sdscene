@@ -332,7 +332,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 7b1883b2-b98c-4f28-90e0-bb9e6471f7e1
+                        ShowMenuOnSceneLoad: false
+                    9287f954714bd704c3a4fea3353052ae*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 936d47b2-3983-493a-a358-8fabe2ee6ad9
                         ShowMenuOnSceneLoad: false
             Base:
@@ -839,7 +842,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    ebd93e054e539ae0c97a70d0ab4fe5c9: !CSInt_02_Collision_Triggers.TeleportExitScriptTut,CSInt.Game
+                    9d6e18902faac0b9d71106af35e4f3a1: !CSInt_02_Collision_Triggers.TeleportExitScriptTut,CSInt.Game
                         Id: ba5be195-200a-4e15-b44a-821a82ad9ef1
                         Sphere: ref!! 4d088396-6c2d-4c28-829c-e943df2065f7
         -   Folder: Ground
@@ -1913,7 +1916,7 @@ Hierarchy:
                                 Size: {X: 2.0, Y: 1.0, Z: 1.0}
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    1e4e1e435c855f06312280a64d222b3f: !CSInt_02_Collision_Triggers.CollisionTriggerTut,CSInt.Game
+                    4c81c9cd434df87c80ed6c95a918715e: !CSInt_02_Collision_Triggers.CollisionTriggerTut,CSInt.Game
                         Id: 6d36d3d8-6b6c-40c1-9da4-0e79c333a54c
                         staticColliderComponent: ref!! 0fec558b-b40f-44f2-809d-cfb9e7c51ea4
         -   Folder: Ground

@@ -169,7 +169,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 1bf03179-7c45-48df-a058-fff4fcf1d946
+                        ShowMenuOnSceneLoad: false
+                    f8d129c0a87f10f058591084bee5e8f9*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 0736f9f9-3114-4571-ad92-221b876bb891
                         ShowMenuOnSceneLoad: false
             Base:
@@ -782,7 +785,7 @@ Hierarchy:
                         Name: null
                         Projection: Perspective
                         Slot: 41f9c2cc-ee60-452f-8f6d-44e30148d556
-                    e633ffe323ff37adb2f7d56db14efb4d: !CSInt.Code.NavigateCharacter,CSInt.Game
+                    e7ef7ab136a6af248987aabd78d728e8: !CSInt.Code.NavigateCharacter,CSInt.Game
                         Id: 3b988948-2838-42f5-9191-0a1ffd6ddee3
                         RegularCharacter: ref!! 8443a87b-1f25-4437-9f81-8898234cb94b
                         PathSphere: ref!! ffc6dedb-c9b2-4f25-9332-265551b04467

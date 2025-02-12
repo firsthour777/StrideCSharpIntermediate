@@ -1379,7 +1379,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: b893ebe4-2fd3-4770-a3a9-88dda42343f1
+                        ShowMenuOnSceneLoad: false
+                    1011ddbb22d080eb3769a241c2855cc7*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 0a4a0616-fbaa-4805-b148-c0b82c051aed
                         ShowMenuOnSceneLoad: false
             Base:
@@ -2070,6 +2073,6 @@ Hierarchy:
                             1e15158caa45d4b9e1b12efffb34d4f5~Idle: 59ea7f70-4d77-406e-a371-39da2ee174af:Animations/Idle
                             a60d8ac4e3a7d5e8cb322428e9b60f14~Run: 768594ec-3ac5-46ee-99f7-8b54fd6856e0:Animations/Run
                             d026c8ee9849816481b0682f483cdf8c~Punch: afb834ec-78f8-4711-9d35-c32a631d9f12:Animations/Punch
-                    82aa80e30ed73657dba2a0c56c5028d8: !CSInt.Code.AnimationBasics,CSInt.Game
+                    50396c107deecd55888bc22b63a19663: !CSInt.Code.AnimationBasics,CSInt.Game
                         Id: f3bbf3c1-41f4-4182-aa17-2629689de325
                         AnimationSpeed: 1.0

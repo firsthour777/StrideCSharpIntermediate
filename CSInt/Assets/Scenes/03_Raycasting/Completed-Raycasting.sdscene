@@ -200,11 +200,11 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             9a7f8a5f2a4dee8e21a358916c686069: ref!! ad45eb14-a372-4b8e-ab78-640cd773ff67
-                    d5fc5b9d4033b3675a0b46ddc44d0280: !CSInt.Code.RaycastPenetratingDemo,CSInt.Game
+                    d52e37d7e0f86ac250391da58bbac40a: !CSInt.Code.RaycastPenetratingDemo,CSInt.Game
                         Id: b15a1386-b2d5-4098-a34e-c53b31617f34
                         CollideWithGroup: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
                         CollideWithTriggers: true
-                    79f1213321ddbd79da50fb28d0798030: !CSInt.Code.OmniDirectionMovement,CSInt.Game
+                    7e9f12edf08d580409c5b8dc7db5eff0: !CSInt.Code.OmniDirectionMovement,CSInt.Game
                         Id: 070c4dd1-8316-46d6-acc9-65d662867913
                         MoveSpeed: 3.0
                         Vertical: true
@@ -1041,12 +1041,12 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             9a7f8a5f2a4dee8e21a358916c686069: ref!! 52013e63-7393-4e47-8f4e-d520388fe655
-                    32929acf90e29d43a8c45e06234b5e79: !CSInt.Code.RaycastDemo,CSInt.Game
+                    0990364c5d427429eb2b72281eb6818a: !CSInt.Code.RaycastDemo,CSInt.Game
                         Id: 2f5080d3-eae1-4a54-be5a-120badee5658
                         CollideWithGroup: AllFilter
                         CollideWithTriggers: false
                         HitPoint: ref!! 292209c5-179a-4f99-a15c-b874b89c583a
-                    6818e379b0a5501c56c6472a75988dd6: !CSInt.Code.OmniDirectionMovement,CSInt.Game
+                    3cbee73412a3a59ba40d7f6052184190: !CSInt.Code.OmniDirectionMovement,CSInt.Game
                         Id: 19c58450-6488-4f27-8516-25be92b2f5b4
                         MoveSpeed: 3.0
                         Vertical: true
@@ -1237,7 +1237,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 0c884a01-4501-42f1-ad8c-e3305138397d
+                        ShowMenuOnSceneLoad: false
+                    1c1fb798c3fbd0443ce16278f962108d*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: ef803bb6-743e-46c2-8ff0-03dd0631ca35
                         ShowMenuOnSceneLoad: false
             Base:

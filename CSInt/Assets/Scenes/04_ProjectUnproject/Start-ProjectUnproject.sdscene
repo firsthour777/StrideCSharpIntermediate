@@ -589,7 +589,7 @@ Hierarchy:
                         Id: 113717e8-88d2-42b4-aaeb-0f948d83c99d
                         Model: 3024503b-ea7d-4963-a2d3-fbe57683cf67:Models/StrideBall
                         Materials: {}
-                    0cfed20df70070ccecfe0ad8404d6640: !CSInt.Code.OmniDirectionMovement,CSInt.Game
+                    5bce87e0e93be0779ac5e23f5aacf19e: !CSInt.Code.OmniDirectionMovement,CSInt.Game
                         Id: 705a6ff9-da55-4c60-bf0f-60952e63ac1c
                         MoveSpeed: 2.0
                         Vertical: true
@@ -1017,7 +1017,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 352fe336-cf79-4d78-bbd7-bdca2b50492c
+                        ShowMenuOnSceneLoad: false
+                    5456149cec2b594f494ff7993f5a479c*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: c6cef241-4f68-42d0-9b50-b376efda59e8
                         ShowMenuOnSceneLoad: false
             Base:
@@ -1127,12 +1130,12 @@ Hierarchy:
                         Projection: Perspective
                         VerticalFieldOfView: 70.0
                         Slot: 41f9c2cc-ee60-452f-8f6d-44e30148d556
-                    e8c2ba48746c603a711eb82a799efc6d: !CSInt_04_Project_UnProject.ProjectTut,CSInt.Game
+                    ea18c65a2f282b1d688804f6ea88dcdf: !CSInt_04_Project_UnProject.ProjectTut,CSInt.Game
                         Id: 6287f58b-1cb8-46d9-acb9-fbb7cbd446cc
                         GlobalSphere: ref!! 3f2e5d8f-4aec-4d06-8247-ef9256640f20
                         LocalSphere: ref!! a5f4f5ee-b3e5-4252-9767-9c10ccca1814
                         Camera: ref!! 54df7e41-dc0f-4214-9e95-2e197afc5639
-                    9c1ab770c65fff3545056c1eb4105ceb: !CSInt_04_Project_UnProject.UnprojectTut,CSInt.Game
+                    285f8ade299e55214b4ee29f76bc2e0d: !CSInt_04_Project_UnProject.UnprojectTut,CSInt.Game
                         Id: 84f7e0dc-85cb-4c7f-9708-8b9325c87690
                         GoldenSphere: ref!! 9170cbbe-58b9-4a12-9a87-c057d217cfa7
                         ViewportCamera: ref!! 54df7e41-dc0f-4214-9e95-2e197afc5639
@@ -1269,7 +1272,7 @@ Hierarchy:
                         Model: 3024503b-ea7d-4963-a2d3-fbe57683cf67:Models/StrideBall
                         Materials:
                             23663b620f869593f11b8c73bb57e086~0: e786ab39-590f-4a68-8c50-de6e99efea1a:Materials/CustomFilterMaterial
-                    0cfed20df70070ccecfe0ad8404d6640: !CSInt.Code.OmniDirectionMovement,CSInt.Game
+                    799b1156d1d2787c52c5d5cc3f6ddd79: !CSInt.Code.OmniDirectionMovement,CSInt.Game
                         Id: 9698a47f-9bce-4828-98da-0f055006ce90
                         MoveSpeed: 4.0
                         Vertical: false

@@ -675,7 +675,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: cf9eb553-d0e4-40bb-872c-f548caa517e4
+                        ShowMenuOnSceneLoad: false
+                    8380bb5e1bd56308b4404425e72c5c02*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: de99f325-4dc1-46bf-92ea-67fa4c811e57
                         ShowMenuOnSceneLoad: false
             Base:
@@ -791,10 +794,10 @@ Hierarchy:
                         UseHRTF: false
                         DirectionalFactor: 0.0
                         Environment: Small
-                    9b5c17fd501f9839aed554a74bc4575e: !CSInt.Code.AudioDemo,CSInt.Game
+                    44502225566bcd7933fd28086896e2d1: !CSInt.Code.AudioDemo,CSInt.Game
                         Id: bb4b827c-f0e2-4a11-943e-2603cb6c83eb
                         UkuleleSound: f50f2965-1ab6-4871-ac2f-c6b4745fe110:Audio/Ukelele
-                    6f2d27198339238056f47fbe7f621748: !CSInt.Code.OmniDirectionMovement,CSInt.Game
+                    57981a25cb606ff55daf0705e2cd30c3: !CSInt.Code.OmniDirectionMovement,CSInt.Game
                         Id: e2bace7e-5a0c-404f-a436-c5edb10957df
                         MoveSpeed: 3.0
                         Vertical: true
@@ -810,7 +813,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.70710677, Z: 0.0, W: 0.70710677}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    7068ae32a26915c9af5cf9ff31e1d2a0: !CSInt.Code.LoadMusic,CSInt.Game
+                    50863ac4f3fe3382c09601d6fe7ca0dd: !CSInt.Code.LoadMusic,CSInt.Game
                         Id: 1ec8b226-a688-4b0d-bc99-278875c38ed1
                         BackgroundMusic: 4e07ca4d-d611-4190-ba0a-83685691d9f1:Audio/FishLampByUlrick-EvensSalies
         -   Folder: null

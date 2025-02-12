@@ -1301,7 +1301,7 @@ Hierarchy:
                         Children:
                             18eebc7166d1c3dd4e4759ba85042f5f: ref!! 8e61dfe6-cc62-4ffe-a021-da30ae1763ed
                             a48aeaf4d40befd84b6cfeb5d0b0aa3a: ref!! f8d2d032-1cc8-46d2-bea2-3c10649f87c5
-                    b999cb5fab28535b1b322a2817654656: !CSInt.Code.ThirdPersonCamera,CSInt.Game
+                    d73943d8481ad902d1e0c0e9a40c14e5: !CSInt.Code.ThirdPersonCamera,CSInt.Game
                         Id: d0db4ffb-8684-465a-9810-1bc16dbf7f80
                         InvertMouseY: false
                         MouseSpeed: {X: 0.6, Y: 0.5}
@@ -1326,7 +1326,7 @@ Hierarchy:
                                 Length: 1.0
                                 LocalOffset: {X: 0.0, Y: 0.75, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    7c21fd9626a826df23b2db47a48ff170: !CSInt.Code.CharacterMovement,CSInt.Game
+                    e9bd777b7f95dfe04e9cc45e6dfc4696: !CSInt.Code.CharacterMovement,CSInt.Game
                         Id: a8f1666e-f254-42bd-8595-8939fa89dfab
                         MovementMultiplier: {X: 3.0, Y: 0.0, Z: 4.0}
         -   Folder: Walls
@@ -1625,7 +1625,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 24595e9c-bd67-41c0-89d5-68ea28baeee3
+                        ShowMenuOnSceneLoad: false
+                    3762461147239ffe61b21c9c977dbd05*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 9649659b-9a16-44be-ada3-73f6448509bf
                         ShowMenuOnSceneLoad: false
             Base:

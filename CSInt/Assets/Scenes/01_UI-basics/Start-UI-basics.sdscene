@@ -1120,7 +1120,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    3e689eeae96dc5137c9393872b5b2694: !CSInt_01_UI_Basics.UICodeTut,CSInt.Game
+                    3b333b803737b936e3b08712cfbe7e56: !CSInt_01_UI_Basics.UICodeTut,CSInt.Game
                         Id: 59139969-9720-4433-a27b-8d3007417fd2
                         font: 8da1c8e2-ca0a-48e9-827c-7d0e8dccd8ab:UI/OpenSans-font
         -   Folder: null
@@ -1640,7 +1640,7 @@ Hierarchy:
                         Page: b55f2fed-08ea-475f-aa25-d771a63b09c7:Scenes/01_UI-basics/UIDemoPage
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
-                    18fcbab80912ff51dc20a470bcdccdf2: !CSInt_01_UI_Basics.UIEditorTut,CSInt.Game
+                    ffafe4879dae4dd30e50ed284b0b9f99: !CSInt_01_UI_Basics.UIEditorTut,CSInt.Game
                         Id: c0c5a736-8a0d-4e4f-818e-e1689b0e0db6
                         nameTextBlock: null
                         nameEditText: null
@@ -1939,7 +1939,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: c462b6ee-ded9-4d5b-a171-fb1e607f5bfa
+                        ShowMenuOnSceneLoad: false
+                    51b0c7e892d81f5f37cde8701f0cb827*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 9d07dcd7-5cbf-4dd8-973f-96e026934a76
                         ShowMenuOnSceneLoad: false
             Base:

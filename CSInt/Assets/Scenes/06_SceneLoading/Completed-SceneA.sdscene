@@ -123,7 +123,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    5f1158f057e0da16aa9b456c8eab17a9: !CSInt.LoadScene,CSInt.Game
+                    a80737fb5a9481f5e8bed8efc99f7506: !CSInt.LoadScene,CSInt.Game
                         Id: 19d7b33c-9f1c-40da-a04b-60ba49a2dc11
                         SceneToLoad: 2cb01a23-d734-4c62-aea0-37c27a2aa926:Scenes/06_SceneLoading/Completed-SceneB
                         DrawY: 20
@@ -231,7 +231,10 @@ Hierarchy:
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.28, Y: 0.72, Z: 1.0}
                         RenderGroup: Group4
-                    76335c0dab5254e13c23c7182873cb9c: !CSInt.Code.TutorialUI,CSInt.Game
+                    44350635de1a2c01332481d4ef1fa056: !CSInt.Code.TutorialUI,CSInt.Game
+                        Id: 9380b6c5-9bf8-4c26-86cc-9cf9dc2fbb4a
+                        ShowMenuOnSceneLoad: false
+                    8cf800a5fcb182d5a30f789501f028ab*: !CSInt.Code.TutorialUI,CSInt.Game
                         Id: 41eaabe5-ef8b-4e3f-8829-097d85040ef4
                         ShowMenuOnSceneLoad: false
             Base:
@@ -1742,7 +1745,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    26e3e412f760e91322c1db1acbae29ed: !CSInt.LoadChildScene,CSInt.Game
+                    f03118fbc992af5e1bea835ed5f882b9: !CSInt.LoadChildScene,CSInt.Game
                         Id: 07df4438-9123-411b-891a-d6c2e78950eb
                         childSceneToLoad: 68784f21-20e0-4243-bd77-63f6351acf98:Scenes/06_SceneLoading/SceneA-Child
         -   Folder: Walls
