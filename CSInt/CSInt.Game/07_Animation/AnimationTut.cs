@@ -20,14 +20,6 @@ namespace CSInt_07_Animation
       private PlayingAnimation playingAnimation;
 
 
-      private static class AnimationState
-      {
-         public const string Idling = "Idling";
-         public const string Punching = "Punching";
-         public const string Running = "Running";
-      }
-
-
 
 
       public override void Start()
