@@ -952,7 +952,6 @@ Hierarchy:
                     3997d2f2ee063cda4bb5ac0c951ca329: !CSInt_08_Audio.LoadMusicTut,CSInt.Game
                         Id: 0993d4c8-2ea0-4ba4-b206-d6281c663644
                         BackgroundMusic: 4e07ca4d-d611-4190-ba0a-83685691d9f1:Audio/FishLampByUlrick-EvensSalies
-                        musicInstance: null
         -   Folder: Ground
             Entity:
                 Id: de74c0d5-36b0-4a8c-bfab-f699c0906008

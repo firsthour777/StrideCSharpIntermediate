@@ -7,7 +7,6 @@ Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
         - ref!! 7ffb3cee-628a-4abd-ae2b-6eec39eb203b
-        - ref!! 19c14ba2-3193-4a12-b5a5-0aff2bb0fa8f
         - ref!! d54d3dd6-73d6-44a3-96e0-205a800e8e10
     Parts:
         -   Folder: Walls
@@ -333,7 +332,7 @@ Hierarchy:
                 Components:
                     cf7ad9a098a1f3272e2e412934231c28: !TransformComponent
                         Id: 8a09a2ca-0dab-4c1f-9d21-60892817a07b
-                        Position: {X: 0.58664024, Y: 1.1027168, Z: -0.6186475}
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -1101,6 +1100,17 @@ Hierarchy:
                             694d21b0142488b9f530dc5a40987ba7: ref!! ad4c8f52-3f15-43ac-b61f-67805a814236
                             63441334e7a7638fd9e7583cc70fdc2b: ref!! 3b8dafc3-40ca-4d36-9430-8b8e47d4928c
                             67fd44bdd81b5290a4e5719684ae5ece: ref!! aaec8702-121f-400b-b930-265764102e6e
+        -   Entity:
+                Id: 823ec70a-06ed-41ca-b982-9ba86a4ea17d
+                Name: Pivot
+                Components:
+                    e0b9574e90883fa184fc50bf3dc89893: !TransformComponent
+                        Id: e73efd5f-79a7-4720-b0d4-42034a54a203
+                        Position: {X: 0.0, Y: 1.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            074ade04665b2fa8ef7fdaae1a512efb: ref!! 8a09a2ca-0dab-4c1f-9d21-60892817a07b
         -   Folder: Walls
             Entity:
                 Id: 86e5e41f-4c36-4892-b610-79c3c18206a6
@@ -1695,6 +1705,36 @@ Hierarchy:
                             af244ee03b782b39704ab380fc3304ef: ref!! 58e57c82-3fa3-423a-a36d-5d9f61286a5b
                             856528409e07858d0a897193cebdc712: ref!! 14ff612d-6b64-4891-bf8d-f0f42e3ec8f5
                             48d896e7b9a5c5c6ec0d97c6dc2464de: ref!! 66e3661e-4024-46bb-a4ba-37d3d2d73048
+                            47052d15c4c0646d61fc27cf253eaef8: ref!! e73efd5f-79a7-4720-b0d4-42034a54a203
+                    b2cadcef177a35e516fe2e762e1879ed: !CSInt_09_FirstPersonCamera.FirstPersonCamTut,CSInt.Game
+                        Id: c82a2b91-fa72-4042-8cc9-4b7b7809b053
+                        MouseSpeed: 0.5
+                        isXAxisInverted: false
+                        isYAxisInverted: false
+                        MaxCameraAngleDegrees: 50.0
+                        MinCameraAngleDegrees: -50.0
+                        CameraPivotPoint: ref!! 823ec70a-06ed-41ca-b982-9ba86a4ea17d
+                        FirstPersonCharacterComponent: ref!! 853fb8ca-9299-4469-9abb-1bb6211d73eb
+                    8a5ba279ecd9e6f5834675a7759278f6: !CSInt_09_FirstPersonCamera.PlayerMoverTut,CSInt.Game
+                        Id: de9f59e3-9751-483d-9f16-f138f83f217b
+                        MovementSpeed: {X: 3.0, Y: 0.0, Z: 4.0}
+                        FirstPersonCharacterComponent: ref!! 853fb8ca-9299-4469-9abb-1bb6211d73eb
+                    90262e0039aa04c3f26c0033aeefcf7f: !CharacterComponent
+                        Id: 853fb8ca-9299-4469-9abb-1bb6211d73eb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: {X: 0.0, Y: -10.0, Z: 0.0}
+                        ColliderShapes:
+                            ff42ed956b8702efbc369e1523494adc: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
         -   Folder: Walls
             Entity:
                 Id: d8093967-416c-46d5-ad26-c392ba8dae10
