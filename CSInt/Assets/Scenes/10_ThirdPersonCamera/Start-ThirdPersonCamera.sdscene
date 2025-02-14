@@ -7,7 +7,6 @@ Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
         - ref!! 50975c09-2ea9-4ef4-9a48-f7a320b4d011
-        - ref!! 6015ea23-a995-4596-a3e1-a7ebd575b72d
         - ref!! b82ec17b-a1fe-484d-8a01-3cb282b979fd
     Parts:
         -   Folder: null
@@ -803,7 +802,7 @@ Hierarchy:
                 Components:
                     cf7ad9a098a1f3272e2e412934231c28: !TransformComponent
                         Id: 299704b9-6dbc-4448-80eb-db0dd70bb37e
-                        Position: {X: 0.8717992, Y: 1.6661552, Z: -3.105759}
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -1115,6 +1114,17 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 8f85967b-945d-4dd2-a4e3-130fa356d914
                 InstanceId: 5e16a6c0-cbc2-4d39-bc80-e24546773e2c
+        -   Entity:
+                Id: 8641a1b3-c7fc-4b86-93e8-1869501d176d
+                Name: ThirdPersonPivot
+                Components:
+                    466e42e04aa16bf651e890ab206a9033: !TransformComponent
+                        Id: aa53854a-c008-4e79-a12d-3437e9dadd89
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b376411bf7ed5c84a0f54cfd07bf7bce: ref!! 299704b9-6dbc-4448-80eb-db0dd70bb37e
         -   Folder: null
             Entity:
                 Id: 8722f0e4-49fe-4bed-bafb-2270fb9eb1e8
@@ -1595,6 +1605,39 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
                             18eebc7166d1c3dd4e4759ba85042f5f: ref!! c63d217e-ed0a-4313-91be-ce61aa95c8d3
+                            195d6a7455805cd6d5325e756b444c62: ref!! 1f93dbca-406c-4c0d-a206-9fe30cf40bd6
+                    20eb0fec850546c6c655cbec90791c06: !CharacterComponent
+                        Id: 488f83c0-a5fa-44f8-b98f-7951ce927604
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 5.0
+                        Gravity: {X: 0.0, Y: -10.0, Z: 0.0}
+                        ColliderShapes:
+                            be8dcbf803b1b4c567e7752fc76d5f69: !CapsuleColliderShapeDesc
+                                LocalOffset: {X: 0.0, Y: 0.26, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    8165335a901ceef1a64eefb361f5ef2f: !CSInt_09_FirstPersonCamera.PlayerMoverTut,CSInt.Game
+                        Id: 22467f2d-2879-4514-86e2-3a6b0bbc821c
+                        MovementSpeed: {X: 3.0, Y: 0.0, Z: 4.0}
+                        FirstPersonCharacterComponent: ref!! 488f83c0-a5fa-44f8-b98f-7951ce927604
+                    5197d1a7014c1a178fbcc8725a12c378: !CSInt_10_ThirdPersonCamera.ThirdPersonTut,CSInt.Game
+                        Id: dab9b576-2639-455c-afdf-e38e9122b0f6
+                        MouseSpeed: 0.5
+                        isXAxisInverted: false
+                        isYAxisInverted: false
+                        MaxCameraAngleDegrees: 50.0
+                        MinCameraAngleDegrees: -50.0
+                        CameraPivotPoint: ref!! db7f8779-1c31-4a69-b506-2b39a3cfc1c3
+                        CameraThirdPersonPivotPoint: ref!! 8641a1b3-c7fc-4b86-93e8-1869501d176d
+                        FirstPersonCharacterComponent: ref!! 488f83c0-a5fa-44f8-b98f-7951ce927604
+                        CameraOffsetThirdPerson: {X: 0.0, Y: 0.0, Z: -3.0}
+                        MinimalHitDistance: 1.0
         -   Entity:
                 Id: bda68db4-9da5-4ee1-a422-0993d70a117d
                 Name: MaterialModel
@@ -1794,6 +1837,17 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: 0c9cfca0-5b2d-4816-92e9-5713542e53a6
                 InstanceId: 5e16a6c0-cbc2-4d39-bc80-e24546773e2c
+        -   Entity:
+                Id: db7f8779-1c31-4a69-b506-2b39a3cfc1c3
+                Name: Pivot
+                Components:
+                    f35f1139da6b495ccc2a60efac997540: !TransformComponent
+                        Id: 1f93dbca-406c-4c0d-a206-9fe30cf40bd6
+                        Position: {X: 0.0, Y: 1.4, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b791b4077a0d795d90b871410d96dd5d: ref!! aa53854a-c008-4e79-a12d-3437e9dadd89
         -   Folder: null
             Entity:
                 Id: dbc46fa7-0a66-467e-8758-ca3f51ed94be
