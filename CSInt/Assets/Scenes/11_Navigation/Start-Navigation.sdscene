@@ -9,6 +9,10 @@ Hierarchy:
         - ref!! 5c3ec2a0-0671-4ddc-ae12-cde8b84cae36
         - ref!! 95033391-0af5-4877-ad38-7a507e99324e
         - ref!! 272135b7-c8ab-40ff-9976-4e50cd6234bb
+        - ref!! b0ea195c-d834-4295-9e98-4a9ad7e030c9
+        - ref!! 2aa5b944-2d17-4b13-af16-4713a6eff4a6
+        - ref!! 2efaac1b-112d-4e6b-bb3e-0c4937425be8
+        - ref!! 5e3ea1da-9245-4ace-b91c-8f1cdd33a076
     Parts:
         -   Folder: null
             Entity:
@@ -237,6 +241,13 @@ Hierarchy:
                         Name: null
                         Projection: Perspective
                         Slot: 41f9c2cc-ee60-452f-8f6d-44e30148d556
+                    5fba6e708f02ca8564dfc3b68f170553: !CSInt_11_Navigation.NavCharacterTut,CSInt.Game
+                        Id: dbfe449f-1601-410e-9a04-6a424eb6c325
+                        Character: ref!! 2efaac1b-112d-4e6b-bb3e-0c4937425be8
+                        NavigationSphere: ref!! 5e3ea1da-9245-4ace-b91c-8f1cdd33a076
+                        NavigationComponentForCharacter: ref!! 4343ac5b-c999-47b7-87d9-69a0efc71b15
+                        ViewportCamera: ref!! 5f716941-d35b-4ab4-af08-55f92a00a5e1
+                        MovementSpeed: 1.7
         -   Entity:
                 Id: 2770961b-b5a4-46b4-a0f0-07a96999ba9a
                 Name: Stairs1x1x2
@@ -270,6 +281,34 @@ Hierarchy:
                 BasePartAsset: 2e084137-ae2b-40d0-8517-c5c202708a02:BlocksPrefabs/Stairs1x1x2
                 BasePartId: b7b6a519-2edb-4e90-88ef-1426d0feac16
                 InstanceId: 08d2b214-2bbd-456c-8daa-1379cec5934d
+        -   Entity:
+                Id: 2aa5b944-2d17-4b13-af16-4713a6eff4a6
+                Name: NavMeshB
+                Components:
+                    68067f44ed8c92951c7d98389a6d7098: !TransformComponent
+                        Id: 37e64cde-6356-42c8-adf0-85c96547d04e
+                        Position: {X: 2.5, Y: 0.0, Z: -2.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fbfc796e0d969831469fba8e4596aa1c: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: f69747a3-032b-4536-a389-4ff706b5b902
+                        Size: {X: 2.0, Y: 1.0, Z: 2.0}
+        -   Entity:
+                Id: 2efaac1b-112d-4e6b-bb3e-0c4937425be8
+                Name: Character
+                Components:
+                    eba942af8176b0d37da15185964cfd12: !TransformComponent
+                        Id: 3a98467f-3fbf-4592-b5d2-221bb1c06a9d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            0af4869a5890406920874186ba0e1f76: ref!! 2cd62447-c4a6-44d5-b70d-a019634c1526
+                    02ecdf44dab9456b489713fb1b21a470: !NavigationComponent
+                        Id: 4343ac5b-c999-47b7-87d9-69a0efc71b15
+                        NavigationMesh: b9a6d92c-e594-4456-b51a-6d11e389e588:Scenes/11_Navigation/ElvesMeshTut
+                        GroupId: 7d4ab227-d21b-470e-bf3b-5a91cf777f47
         -   Entity:
                 Id: 322b1cf2-2a83-4ecd-af51-575ff3697bb2
                 Name: Box2x1x1
@@ -508,6 +547,20 @@ Hierarchy:
                             3449afddf71f72daa32f4a0ed541e611: ref!! 41fce8d8-a02e-40f8-a5a0-126eddcfed77
                             bafdcda8b561f232eebe5dc021ab2d4b: ref!! 31d6f8ed-3012-479e-8ba3-3104c5656b42
                             e7a971ac2d67512179ebbf3958c3f446: ref!! 829e3a5f-2f76-413e-9e22-05318aa5c0c5
+        -   Entity:
+                Id: 5e3ea1da-9245-4ace-b91c-8f1cdd33a076
+                Name: NavSphere
+                Components:
+                    a03bb8b4c354d4657cbcd31ce2c92600: !TransformComponent
+                        Id: b48437c4-b2c7-4b10-a98e-2e2ccb220747
+                        Position: {X: 0.0, Y: -0.64973634, Z: 1.1971685}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.1, Y: 0.1, Z: 0.1}
+                        Children: {}
+                    e386dda2566d91e374ab6c0080af20bb: !ModelComponent
+                        Id: 1536e19a-109a-42be-b930-5f4496e8b1a2
+                        Model: 6890c506-5de7-457a-a640-ff94ce9fe035:Models/Sphere
+                        Materials: {}
         -   Folder: null
             Entity:
                 Id: 623187e5-7910-45f5-8d9d-d560ebf44276
@@ -780,6 +833,20 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: afa40620-4fdb-4866-8178-b3a96711aa23
                 InstanceId: a831719b-5709-4a17-876e-32f506b475e4
+        -   Entity:
+                Id: ab0d0f1f-3c69-4cbe-8740-c6874ff0c69e
+                Name: Cylinder
+                Components:
+                    cccc32ab97b3b2c161d804892034dd5f: !TransformComponent
+                        Id: 2cd62447-c4a6-44d5-b70d-a019634c1526
+                        Position: {X: 0.0, Y: 0.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 1.0, Z: 0.5}
+                        Children: {}
+                    513fefff14990e020f64e4cdb8193514: !ModelComponent
+                        Id: 1c471f8c-3cb5-4b15-9f88-730ddc5a0058
+                        Model: cf36014b-7cd8-43c4-9354-eb7f6523266f:Models/Cylinder
+                        Materials: {}
         -   Folder: Walls
             Entity:
                 Id: aca13a62-d16d-4455-a0c1-e33c7dc47fff
@@ -796,6 +863,19 @@ Hierarchy:
                 BasePartAsset: 591a1b3d-cc77-43ae-ab0d-e73c88410db8:Prefabs/DefaultScenery
                 BasePartId: a0f9af94-238e-419a-8500-8a452e543370
                 InstanceId: a831719b-5709-4a17-876e-32f506b475e4
+        -   Entity:
+                Id: b0ea195c-d834-4295-9e98-4a9ad7e030c9
+                Name: NavMeshA
+                Components:
+                    68067f44ed8c92951c7d98389a6d7098: !TransformComponent
+                        Id: 1d092004-e08d-42de-a299-576b667885cf
+                        Position: {X: -2.5, Y: 0.0, Z: -2.5}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fbfc796e0d969831469fba8e4596aa1c: !Stride.Navigation.NavigationBoundingBoxComponent,Stride.Navigation
+                        Id: b34c5a64-31a3-4ee8-8b1e-896d1adecbfc
+                        Size: {X: 2.0, Y: 1.0, Z: 2.0}
         -   Folder: Walls
             Entity:
                 Id: b17bab47-b331-4a7f-8d24-8a046a65d205

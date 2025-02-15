@@ -51,6 +51,20 @@ Defaults:
                     MaxClimb: 0.4
                     MaxSlope: {Radians: 0.6981317}
                     Radius: 0.1
+            -   Id: 7d4ab227-d21b-470e-bf3b-5a91cf777f47
+                Name: Elves
+                AgentSettings:
+                    Height: 1.2
+                    MaxClimb: 0.3
+                    MaxSlope: {Radians: 1.0471976}
+                    Radius: 0.3
+            -   Id: 7340234b-dc8a-4bca-9c3c-84c0b3cca496
+                Name: Dwarves
+                AgentSettings:
+                    Height: 0.5
+                    MaxClimb: 0.4
+                    MaxSlope: {Radians: 0.6981317}
+                    Radius: 0.1
     - !Stride.Streaming.StreamingSettings,Stride.Rendering
         ManagerUpdatesInterval: 0:00:00:00.0330000
         ResourceLiveTimeout: 0:00:00:08.0000000
